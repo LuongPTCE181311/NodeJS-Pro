@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/LuongPTCE181311/NodeJS-Pro/issues"
   },
-  "homepage": "https://github.com/LuongPTCE181311/NodeJS-Pro#readme"
+  "homepage": "https://github.com/LuongPTCE181311/NodeJS-Pro#readme",
+  "dependencies": {
+    "express": "5.0.1"
+  }
 }

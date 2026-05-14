@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-pro-hoidanit",
+  "version": "1.0.0",
+  "description": "phamthanhluong",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuongPTCE181311/NodeJS-Pro.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": {
+    "name": "HoiDanIT"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuongPTCE181311/NodeJS-Pro/issues"
+  },
+  "homepage": "https://github.com/LuongPTCE181311/NodeJS-Pro#readme"
+}

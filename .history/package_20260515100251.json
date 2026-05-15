@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon",
-    "dev": "nodemon"
+    "start": "tsc && node dist/app.js",
+    "dev": "tsc && node dist/app.js"
   },
-  "nodemonConfig": {
+  "node": {
     "watch": [
       "src"
     ],

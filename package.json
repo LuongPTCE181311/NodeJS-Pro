@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/LuongPTCE181311/NodeJS-Pro#readme",
   "dependencies": {
+    "dotenv": "16.4.7",
     "express": "5.0.1"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@ const app = express();
 
 //config view engine
 app.set("view engine", "ejs");
-app.set("views", __dirname + "/views");
+app.set("views", "./src");
 
 app.get("/", (req, res) => {
   res.render("home.ejs");

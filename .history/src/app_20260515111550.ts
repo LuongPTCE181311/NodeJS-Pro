@@ -6,14 +6,13 @@ const app = express();
 
 //config view engine
 app.set("view engine", "ejs");
-app.set("views", __dirname + "/views");
 
 app.get("/", (req, res) => {
-  res.render("home.ejs");
+  res.send(`<h1 style="color: red">Hello World Update</h1>`);
 });
 
 app.get("/hoidanit", (req, res) => {
-  res.send("Hello ERic Update");
+  res.send("Hello ERic Update");S
 });
 
 app.listen(PORT, () => {

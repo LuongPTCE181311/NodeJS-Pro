@@ -4,12 +4,8 @@ require("dotenv").config();
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-//config view engine
-app.set("view engine", "ejs");
-app.set("views", __dirname + "/views");
-
 app.get("/", (req, res) => {
-  res.render("home.ejs");
+  res.send("<h1></h1>Hello World Update");
 });
 
 app.get("/hoidanit", (req, res) => {
